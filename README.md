@@ -81,6 +81,9 @@ during the bootstrap and create a managed table in Hive. This is all done using 
 
 Open `1_data_ingest.py` in a Workbench session: python3, 1 CPU, 2 GB. Run the file.
 
+Notice that if file structure already exists in S3 bucket, script will fail. In that case, remove file structure from HDFS with:
+!hdfs dfs -rm -R $STORAGE/warehouse/tablespace/external/hive/telco_churn
+
 ### 2 Explore Data
 This is a Jupyter Notebook that does some basic data exploration and visualistaion. It 
 is to show how this would be part of the data science workflow.
