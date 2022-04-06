@@ -1,0 +1,7 @@
+AWS mail:
+pass BOqi9i5TnLWvfdvRqy5Gc5P/m0RzMwgwmZgydWdLJ3oS
+user AKIA6I6SNFMLG3G2YI6L
+
+Git:
+user zapatero-cldr
+token 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
